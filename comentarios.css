@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin-left: 148px;
+    margin-top: 3px;
+}
+
+.palavra {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: -40px 0 50px 0;
+}
+
+.card .user {
+    width: 100px;
+    border-radius: 50px;
+    background-color: #448818;
+}
+
+.star {
+    width: 20px;
+    background-color: #448818;
+}
+
+ .cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 40px;
+    margin: 70px
+ }
+
+ .card {
+    background-color: #448818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    border-radius: 30px;
+ }
+
+ p {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    color: white;
+    background-color: #448818;
+ }
+
+ h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: white;
+    background-color: #448818;
+}
+
+ .stars {
+    background-color: #448818;
+ }
+
+ 
+
+ 
+ 

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin-left: 148px;
+    margin-top: 3px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.contato {
+    width: 100%;
+    max-width: 500px;
+}
+
+.form { 
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  
+}
+
+textarea {
+    height: 150px;
+}
+
+.caixa {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: aliceblue;
+
+}
+
+.field {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: black;
+    background-color: aliceblue;
+   cursor: pointer;
+}
+
+.formulario {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -40px;
+}
+
+
+
+
+
+
+
